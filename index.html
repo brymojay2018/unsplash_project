@@ -171,9 +171,17 @@
     <!-- Modal to add to collection -->
      <div class="categoryform w-screen">
         <div class="categorycontent w-full md:w-3/5 flex flex-col bg-[#f7f7f7] p-6 md:p-12 gap-8 rounded-3xl">
-            <div class="title flex flex-col gap-2">
-                <h2 class="text-3xl">Create a New Collection</h2>
-                <p class="text-sm text-gray-600 italic"> A custom collection will be added to your homepage to explore/discover photos that match your interest.</p>
+            <div class="title flex flex-col md:flex-row justify-between items-center w-full">
+                <div class="headertext flex gap-2 flex-col">
+                    <h2 class="text-3xl">Create a New Collection</h2>
+                    <p class="text-sm text-gray-600 italic"> A custom collection will be added to your homepage to explore/discover photos that match your interest.</p>
+                </div>
+                <div class="closediv bg-gray-200 p-2 rounded-full cursor-pointer flex items-center justify-center">
+                    <span class="material-symbols-outlined">
+                   close
+                </span>
+                </div>
+                
             </div>
 
             <div class="inputdiv flex flex-col gap-2">

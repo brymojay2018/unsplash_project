@@ -100,6 +100,7 @@ const closemodal = document.getElementById(`closemodal`).addEventListener(`click
     picturedisplay.style.display = `none`
 })
 
+
 function getcontent() {
     category.forEach(element => {
         element.addEventListener(`click`, async () => {
@@ -136,6 +137,10 @@ const categoryform = document.querySelector(`.categoryform`)
 
 addCategoryBtn.addEventListener(`click`, () => {
     categoryform.style.display = `flex`
+})
+
+const closemodalbtn = document.querySelector(`.closediv`).addEventListener(`click`, () => {
+    categoryform.style.display = `none`
 })
 
 // 
